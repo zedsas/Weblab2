@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заметки</title>
+    <link rel="icon" type="image/x-icon" href="images/Notes.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top-panel">
+        <div class="fields">
+            <input id="titleInput" class="text-input" type="text" placeholder="Название">
+            <input id="descInput" class="text-input" type="text" placeholder="Описание">
+        </div>
+        <button id="addBtn" class="add-btn tooltip" data-tooltip="Добавить">+</button>
+    </div>
+
+    <div id="cardsContainer" class="cards"></div>
+</div>
+<script src="script/storage.js"></script>
+<script src="script/send.js"></script>
+<script src="script/edit.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>
